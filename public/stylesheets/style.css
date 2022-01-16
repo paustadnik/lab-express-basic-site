@@ -1,0 +1,86 @@
+* {
+    padding: none;
+    box-sizing: border-box;
+    margin: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 20px;
+}
+
+body {
+    background-image: url('/images/bgImg2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    padding-left: 60px;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.title2 {
+    font-size: 2em;
+}
+
+.letMeTellYou {
+}
+
+.lianne1 {
+    font-size: 4em;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.links {
+list-style: none;
+font-size: 1.5em;
+color: black;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:active {
+    text-decoration: underline;
+    color: black;
+}
+
+.aboutPageContainer {
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.albumTitle {
+    padding: 10px;
+
+}
+
+.picsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.picsContainer > img {
+    height: 300px;
+    box-shadow: 10px 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);;
+}
+
